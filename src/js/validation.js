@@ -9,6 +9,7 @@ $(function () {
             event.preventDefault(); // Prevent redirect page
             var name = $("input#name").val().trim();
             var email = $("input#email").val().trim();
+            var phone = $("input#phone").val().trim();
             var message = $("textarea#message").val().trim();           
 		
             $.ajax({
@@ -17,6 +18,7 @@ $(function () {
                 data: {
                     name: name,
                     email: email,
+                    phone: phone,
                     message: message
                 },                
                 cache: false,

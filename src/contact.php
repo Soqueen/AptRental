@@ -1,8 +1,9 @@
 <?php
    $from=$_POST['email'];
    $name=$_POST['name'];
-   $to="sokhenglim973@gmail.com";
-   $message="From: $name"."\n"."Email: $from"."\n\n".$_POST['message']."\n";
+   $phone=$_POST['phone']
+   $to="2zc.apartment@gmail.com";
+   $message="From: $name"."\n"."Email: $from"."\n".$_POST['phone']."\n\n".$_POST['message']."\n";
 
    mail($to, "No Subject", $message, "From:".$from);
 
