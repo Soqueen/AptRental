@@ -7,8 +7,8 @@
 
    mail($to, "No Subject", $message, "From:".$from);
 
-   // echo "Message Sent! Thank You!";
-   // echo "to: $to <br>";
-   // echo "from: $from <br>";
-   // echo "message: $message <br>";
+   echo "Message Sent! Thank You!";
+   echo "to: $to <br>";
+   echo "from: $from <br>";
+   echo "message: $message <br>";
 ?>
