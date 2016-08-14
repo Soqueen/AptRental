@@ -13,7 +13,7 @@ $(function () {
             var message = $("textarea#message").val().trim();           
 		
             $.ajax({
-                url: "php/sendMail.php",
+                url: "../contact.php",
                 type: "POST",
                 data: {
                     name: name,
