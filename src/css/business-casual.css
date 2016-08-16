@@ -190,6 +190,6 @@ footer p {
         clear: both;
     }
 }
-.remove-hover: hover{
+.remove-underline-hover:hover{
     text-decoration: none;
 }
